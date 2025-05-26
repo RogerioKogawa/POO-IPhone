@@ -1,7 +1,7 @@
 package Interfaces;
 
 public interface IAparelhoTelefonico {
-    void ligar(int numeroTelefone);
+    void ligar(long numeroTelefone);
     void atender();
     void iniciarCorreioVoz();
 }
